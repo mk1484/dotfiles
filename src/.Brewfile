@@ -1,5 +1,4 @@
 tap "adoptopenjdk/openjdk"
-tap "robotsandpencils/made"
 tap "supabase/tap"
 # Command-line tool to manipulate Android App Bundles
 brew "bundletool"
@@ -29,16 +28,12 @@ brew "starship"
 brew "vite"
 # Watch files and take action when they change
 brew "watchman"
-# Install and switch between multiple versions of Xcode
-brew "robotsandpencils/made/xcodes"
+# Best command-line tool to install and switch between multiple versions of Xcode
+brew "xcodes"
 # Supabase CLI
 brew "supabase/tap/supabase"
 # Supabase CLI (Beta)
 brew "supabase/tap/supabase-beta", link: false
-# JDK from the Java User Group (JUG)
-cask "adoptopenjdk"
-# Tools for building Android applications
-cask "android-studio"
 cask "cmd-eikana"
 # Write, edit, and chat about your code with AI
 cask "cursor"
@@ -60,6 +55,8 @@ cask "google-japanese-ime"
 cask "iterm2"
 # App to write, plan, collaborate, and get organised
 cask "notion"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin@17"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
